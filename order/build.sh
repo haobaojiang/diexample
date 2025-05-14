@@ -1,0 +1,1 @@
+go build -buildmode=plugin -gcflags="all=-N -l" -o ../plugin-dist/order.so plugin.go
